@@ -1,0 +1,41 @@
+{
+  "name": "job-portal",  // Your project's name
+  "version": "0.1.0",   // Initial version number
+  "private": true,      // Set to true to prevent accidental publishing to npm
+  "dependencies": {    // List of project dependencies
+    "axios": "^1.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.1", // Or the latest version
+    "react-scripts": "5.0.1" // Or the latest version
+    // ... other dependencies
+  },
+  "devDependencies": {  // List of development dependencies (for testing, building, etc.)
+    // "eslint": "^8.0.0", // Example
+    // ... other dev dependencies
+  },
+  "scripts": {      // Scripts for common tasks
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {    // Configuration for ESLint (if used)
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {    // Browserslist configuration for target browsers
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
